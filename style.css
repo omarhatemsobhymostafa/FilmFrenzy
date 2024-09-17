@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Chewy", system-ui;
+}
+.hero-panner{
+    text-align: center;
+    height: 91vh;
+    align-content: center;
+    width: 100%;
+
+    background-image:  url("Film Frenzy.jpg");
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 3.1rem;
+    margin-bottom: 1rem;
+    color: white;
+   
+}
+p{
+    color: white;
+}
+header{
+    padding-inline: 4.5rem;
+    height: 5rem;
+    align-content: center;
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 2.1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.movie-card{
+    width: calc(100% / 5 - 6rem);
+    margin-top: 4rem;
+    
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.best , .section{
+    padding-inline: 4.5rem;
+   display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.watch{
+    width: 91vw;
+    height: 91vh;
+}
+iframe{
+   overflow-x: hidden;
+   overflow-y: hidden;
+   width: 90vw;
+}
+footer{
+    position: relative;
+    bottom: 0;
+
+    z-index: 99999999;
+    text-align: center;
+    align-items: end;
+    align-content: end;
+    height: 5rem;
+    margin-top: 10rem;
+}
+.fab{
+    
+    text-align: center;
+    display: flex;
+    font-size: x-large;
+    margin-bottom: .7rem;
+    margin-left: .25rem;
+   
+}
